@@ -42,10 +42,11 @@ function generateHTML(data) {
   }
 }
 
-btn.addEventListener('click', () => {
+btn.addEventListener('click', (e) => {
   getJSON(astrosUrl, (json) => {
     json.people.map(person => {
       getJSON(wikiUrl + person.name, generateHTML)
     })
   })
+  e.target.remove()
 })
