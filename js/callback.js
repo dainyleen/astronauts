@@ -41,3 +41,5 @@ function generateHTML(data) {
     `
   }
 }
+
+getJSON(astrosUrl)
