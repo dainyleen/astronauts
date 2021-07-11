@@ -1,4 +1,5 @@
 /* MAIN STYLE */
+
 * {
   box-sizing: border-box;
 }
@@ -99,4 +100,32 @@ button {
 
 button:hover {
   cursor: pointer;
+}
+
+/* MEDIA QUERIES */
+
+@media (min-width: 568px) {
+  main {
+    width: 65%;
+  }
+  section {
+    box-shadow: 0 2px 1px rgba(0,0,0,0.15);
+  }
+}
+
+@media (min-width: 768px)  {
+  main {
+    width: 70%;
+    max-width: 900px;
+  }
+  img {
+    width: auto;
+    float: left;
+    margin-right: 20px;
+  }
+  section {
+    padding: 20px;
+    margin-bottom: 35px;
+    overflow: auto;
+  }
 }
