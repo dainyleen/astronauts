@@ -19,3 +19,8 @@ PART TWO
 2. Practiced creating a promise instance using Promise() constructor
 3. Practiced defining what should happen when the PROMISE is fulfilled or rejected
 
+PART THREE
+1. Learning how to use async/await
+2. Converting all functions with Promises into async/await
+
+
