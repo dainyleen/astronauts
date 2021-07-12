@@ -21,6 +21,6 @@ PART TWO
 
 PART THREE
 1. Learning how to use async/await
-2. Converting all functions with Promises into async/await
+2. Converting all functions with promise handling into async/await
 
 
