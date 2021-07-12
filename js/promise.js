@@ -16,10 +16,10 @@ function getJSON(url) {
         let data = JSON.parse(ajax.responseText)
         resolve(data)
       } else {
-        reject(Error(xhr.statusText))
+        reject(Error(ajax.statusText))
       }
     }
-    xhr.onerror = () => reject(Error('A network error occurred'))
+    ajax.onerror = () => reject(Error('A network error occurred'))
     ajax.send()
   })
 }
@@ -28,7 +28,7 @@ function getProfiles(json) {
   const profiles = json.people.map(person => {
     return getJSON(wikiUrl + person.name)
   })
-  return profiles
+  return Promise.all()
 }
 
 // Generate the markup for each profile
