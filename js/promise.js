@@ -25,9 +25,10 @@ function getJSON(url) {
 }
 
 function getProfiles(json) {
-  json.people.map(person => {
-    getJSON(wikiUrl + person.name, generateHTML)
+  const profiles = json.people.map(person => {
+    return getJSON(wikiUrl + person.name)
   })
+  return profiles
 }
 
 // Generate the markup for each profile
