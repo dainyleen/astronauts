@@ -22,5 +22,6 @@ PART TWO
 PART THREE
 1. Learning how to use async/await
 2. Converting all functions with promise handling into async/await
+3. Practiced using try-catch statements to handle errors
 
 
