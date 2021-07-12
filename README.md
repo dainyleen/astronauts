@@ -16,3 +16,6 @@ PART ONE
 
 PART TWO
 1. Practiced creating a PROMISE and getting a result out of a PROMISE
+2. Practiced creating a promise instance using Promise() constructor
+3. Practiced defining what should happen when the PROMISE is fulfilled or rejected
+
