@@ -57,9 +57,11 @@ function generateHTML(data) {
 }
 
 btn.addEventListener('click', (e) => {
+  e.target.textContent = 'Loading...'
+
   getJSON(astrosUrl)
     .then(getProfiles)
     .then(generateHTML)
     .catch(err => console.log(err))
-  e.target.remove()
+    .finally(() =>  e.target.remove())
 })
