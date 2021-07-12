@@ -4,7 +4,7 @@ This is a simple web project that uses asynchronous programming with JavaScript
 
 ## Video Demo
 
-https://user-images.githubusercontent.com/74221561/125229501-0ca26400-e32b-11eb-9b86-14222e087c71.mov
+https://user-images.githubusercontent.com/74221561/125229641-5428f000-e32b-11eb-8f09-f4b90774a47d.mov
 
 ### Tech Talk
 
